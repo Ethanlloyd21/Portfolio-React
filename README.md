@@ -1,6 +1,6 @@
 # Portfolio-React
 
-![](image/sample.PNG)
+![](samplPic.PNG)
 - This is my professional portfolio using React.
 
 ## Table of contents
