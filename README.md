@@ -14,6 +14,7 @@
 
 # General Info
 
+- Tab icon has been modified to have my own icon.
 
 
 # Install
