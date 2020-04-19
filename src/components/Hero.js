@@ -1,6 +1,5 @@
 import React from 'react';
-import introLogo from '../intro-logo.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import introLogo from '../lloyd.png'
 import Particles from 'react-particles-js';
 
 const Hero = (props) => {
@@ -18,20 +17,18 @@ const Hero = (props) => {
 					<div className="site-intro__main">
 						<div className="site-intro__intro">
 							<h2 className="site-intro__name"> My name is {data.name}! </h2>
-							<h2 className="site-intro__heading"> I'm a {data.role}. </h2>
+							<h2 className="site-intro__heading"> I'm a {data.role} </h2>
 							<h1 className="site-intro__primary"> {data.intro} </h1>
 							<div className="site-intro__action">
-								<Link
+								<a
 									className="btn btn-outline-white btn-radius btn-lg"
-									to="project"
 									href="https://ethanlloyd21.github.io/resume/"
-									spy={true}
-									smooth={true}
-									offset={-30}
-									duration={500}
+									target="_blank"
+									rel="noopener noreferrer"
+
 								>
 									Resume
-	          </Link>
+	          					</a>
 							</div>
 						</div>
 					</div>

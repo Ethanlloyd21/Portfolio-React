@@ -55,7 +55,7 @@ class Header extends Component {
 	render() {
 
 		const { isSticky, isOpenSidebar } = this.state;
-		const data = this.props.portfolioData;
+
 
 
 		return (
@@ -72,11 +72,7 @@ class Header extends Component {
 							offset={0}
 							duration={500}
 						>
-							<img
-								src={isSticky ? data.logo : data.logoWhite}
-								alt=""
-								className="site-header__logo"
-							/>
+							<b>Lloydmarcelino.com</b>
 						</Link>
 					</div>
 					<div className="site-header__spacer"></div>
@@ -98,14 +94,48 @@ class Header extends Component {
 								onClick={this.onHandleClickLink}
 								className="site-nav__link"
 								activeClass="site-nav__link--active"
-								to="project"
-								href="#project"
+								to="skills"
+								href="#skills"
 								spy={true}
 								smooth={true}
 								offset={-20}
 								duration={500}
 							>
 								About
+		          </Link>
+						</li>
+
+						<li className="site-nav__list">
+							<Link
+								onClick={this.onHandleClickLink}
+								className="site-nav__link"
+								activeClass="site-nav__link--active"
+								to="skills"
+								href="#skills"
+								spy={true}
+								smooth={true}
+								offset={-20}
+								duration={500}
+							>
+								Skills
+		          </Link>
+						</li>
+
+
+						<li className="site-nav__list">
+							<Link
+								onClick={this.onHandleClickLink}
+								href="#work"
+								className="site-nav__link"
+								activeClass="site-nav__link--active"
+								to="work"
+								spy={true}
+								smooth={true}
+								offset={-30}
+								duration={500}
+
+							>
+								Experience
 		          </Link>
 						</li>
 						<li className="site-nav__list">
@@ -123,40 +153,8 @@ class Header extends Component {
 								Portfolio
 		          </Link>
 						</li>
-						<li className="site-nav__list">
-							<Link
-								onClick={this.onHandleClickLink}
-								href="#skills"
-								className="site-nav__link"
-								activeClass="site-nav__link--active"
-								to="skills"
-								href="#skills"
-								spy={true}
-								smooth={true}
-								offset={-30}
-								duration={500}
-								className="site-nav__link"
-							>
-								Skills
-		          </Link>
-						</li>
-						<li className="site-nav__list">
-							<Link
-								onClick={this.onHandleClickLink}
-								href="#work"
-								className="site-nav__link"
-								activeClass="site-nav__link--active"
-								to="work"
-								href="#work"
-								spy={true}
-								smooth={true}
-								offset={-30}
-								duration={500}
-								className="site-nav__link"
-							>
-								Experience
-		          </Link>
-						</li>
+
+
 						<li className="site-nav__list">
 							<Link
 								onClick={this.onHandleClickLink}
@@ -164,12 +162,11 @@ class Header extends Component {
 								className="site-nav__link"
 								activeClass="site-nav__link--active"
 								to="contact"
-								href="#contact"
 								spy={true}
 								smooth={true}
 								offset={-30}
 								duration={500}
-								className="site-nav__link"
+
 							>
 								Contact
 		          </Link>

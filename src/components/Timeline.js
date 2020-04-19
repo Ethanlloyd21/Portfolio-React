@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Timeline = (props) => {
   const data = props.portfolioData;

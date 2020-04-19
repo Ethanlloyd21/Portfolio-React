@@ -24,8 +24,66 @@
 	overflow-y: auto;
 	overflow-x: hidden;
 }
+
 @media only screen and (max-width: 780px) {
 	.modal .modal-content {
 		width: 90%;
 	}
+}
+
+body {
+	font-family: "Roboto", helvetica, arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 1;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 1.8rem;
+	line-height: 3.2rem;
+}
+
+hr {
+	border: 0;
+	clear: both;
+	display: block;
+	margin: 2.4rem auto;
+	text-align: center;
+	width: 100%;
+}
+
+/* -- Animated hr -- */
+
+.progress {
+	background: rgba(1, 15, 30, 0.1);
+	height: 1px;
+	overflow: hidden;
+	position: relative;
+}
+
+.progress::before {
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-name: progress;
+	background: #111;
+	content: "";
+	display: block;
+	height: 1px;
+	position: absolute;
+	width: 80px;
+}
+
+@keyframes progress {
+	0% {
+		transform: translateX(0px);
+	}
+	100% {
+		transform: translateX(1440px);
+	}
+}
+
+.cols {
+	column-count: 2;
 }
