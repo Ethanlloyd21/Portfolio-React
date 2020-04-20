@@ -17,6 +17,8 @@
 
 ### Public
 - This folder contains the **index.html**, **css**, and **images**. I modified the tab icon by updloading my own icon and change the code on index.html and manifest.json
+![](github/tabicon.PNG)
+
 ```bash 
 <link rel="shortcut icon" href="%PUBLIC_URL%/lloyd.ico" />
 ```
