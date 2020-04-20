@@ -51,6 +51,7 @@ export default Modal;
 
 ```
 ![](github/modal.PNG)
+
 To get more info on how to use Modal (React) in a project please visit this website: https://codeburst.io/modals-in-react-f6c3ff9f4701
 
 > **Projects** - this folder contains code to structure the Portfolio section. **[Project.js]** is the code for the Portfolio projects heading. **[ProjectList.js]** handles the buttons inside the Modal. **[ProjectInfo.js]** handles what information is inside the Modal (ie. templates).
