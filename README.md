@@ -34,7 +34,7 @@
 
 
 ### Componets
-> **Modal** - this component is use to view the content information on my projects.
+> **Modal** - this component is use to view the content information on a separate window.
 ```bash
 import React from 'react';
 import "./Modal.css";
