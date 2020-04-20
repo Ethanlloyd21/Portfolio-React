@@ -97,7 +97,7 @@ To get more info on how to use Modal (React) in a project please visit this webs
 
 - **Option 2**: Here is a video on how to deploy a react application on AWS using S3 bucket: https://www.youtube.com/watch?v=rVj3zc30-8E
 
-- **Option 3**: Here is a video on how to deploy a react up on AWS using yarn in less than 8 minutes: https://www.youtube.com/watch?v=PqUYq2Wx0lc - Website info: https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6
+- **Option 3**: Here is a video on how to deploy a react app on AWS using yarn in less than 8 minutes: https://www.youtube.com/watch?v=PqUYq2Wx0lc - Website info: https://medium.com/serverlessguru/deploy-reactjs-app-with-s3-static-hosting-f640cb49d7e6
 
 
 **What is AWS (Amazon Web Services)?**
