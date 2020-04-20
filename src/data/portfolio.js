@@ -9,7 +9,7 @@ const portfolioData = {
 		{
 			"id": 0,
 			"title": "Employee Directory using React",
-			"imageUrl": "images/portfolio/sample.PNG",
+			"imageUrl": "images/portfolio/sample.png",
 			"link": "https://ethanlloyd21.github.io/React-Employee-Directory/",
 			"codeLink": "https://github.com/Ethanlloyd21/React-Employee-Directory",
 			"description": "This application uses React to break up the UI into components, manage component state and respond to user events.",
