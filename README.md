@@ -59,7 +59,7 @@ To get more info on how to use Modal (React) in a project please visit this webs
 > **About.js** - this is the code for the About section.
 
 > **Contact.js** - this is the code for the Contact section.
-- I used formik and yup for the contact form to work. You can find information on how to use formik and yup here: https://blog.bitsrc.io/handling-react-forms-and-validation-with-formik-and-yup-dc789fd9e485
+- I used formik and yup for the contact form to work. Any messages that is created within my website will be forwared on my personal email. You can find information on how to use formik and yup here: https://blog.bitsrc.io/handling-react-forms-and-validation-with-formik-and-yup-dc789fd9e485
 
 - I also used a thrid party service called **formcarry.com**. It is a form processing service which allowed me to handle forms on my page without the back-end code. Visit their website for information: https://formcarry.com/
 
