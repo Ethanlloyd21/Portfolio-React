@@ -16,7 +16,7 @@
 
 
 ### Public
-- This folder contains the **index.html**, **css**, and **images**. I modified the tab icon by uploading my own icon and change the code on index.html and manifest.json
+- This folder contains the **index.html**, **css**, and **images**. I modified the tab icon by uploading my own icon and changing the code on index.html and manifest.json
 
 ![](github/tabicon.PNG)
 
