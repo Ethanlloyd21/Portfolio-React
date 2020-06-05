@@ -14,15 +14,17 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/React-Employee-Directory",
 			"description": "This application uses React to break up the UI into components, manage component state and respond to user events.",
 			"technology": ["HTML/CSS", "Bootstrap", "Node.js", "React", "API", "Webpack"],
+			"deploy": ["git", "GitHub", "mLab", "Heroku"]
 		},
 		{
 			"id": 1,
-			"title": "Sneaker Inventory",
-			"imageUrl": "images/portfolio/dashboard.png",
-			"link": "https://agile-headland-04774.herokuapp.com/",
-			"codeLink": "https://github.com/Ethanlloyd21/project-2",
-			"description": "The JLR Shoes CRM is used by the JLR Shoe company to track inventory, supplier info, and vendor info. It gives JLR Shoe company an advantage over the competition by having the most important company information accurately displayed in one place. This CRM was created using React, Sequelize, and MySQL.",
-			"technology": ["HTML/CSS", "Javascript", "React", "Sequalize", "Express", "Chart.js", "MySQL"],
+			"title": "Donationally",
+			"imageUrl": "images/portfolio/donationally.PNG",
+			"link": "https://donationally.herokuapp.com/",
+			"codeLink": "https://github.com/ohhhhhwhen/Donationally",
+			"description": "Donationally is a charity search navigator, helping users in multiple ways to stay informed about world events and opportunities to give back to those in need. Our mission is to create lasting change one donation at a time. We envision a world everyone has the opportunity to live a better life",
+			"technology": ["HTML/CSS", "Javascript", "React", "React-Bootstrap", "Express", "MongoDB", "Ant Design", "Node.js", "Formik", "Yup"],
+			"deploy": ["git", "GitHub", "mLab", "Heroku"]
 		},
 		{
 			"id": 2,
@@ -32,15 +34,17 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/Budget-Tracker",
 			"description": "Using Progressive Web Application (PWA) this application enables the user to add expenses and deposits to their budget with or without an online connection. When entering transactions offline, data should populate the total when connected back online.",
 			"technology": ["HTML/CSS", "Javascript", "jQuery", "Express", "Bootstrap", "Chart.js", "MongoDB", "Mongoose", "IndexedDB", "Webpack"],
+			"deploy": ["git", "GitHub", "mLab", "Heroku"]
 		},
 		{
 			"id": 3,
-			"title": "Log-in Authentication using React",
-			"imageUrl": "images/portfolio/auth.png",
-			"link": "https://drive.google.com/file/d/16a7xBDngn1zJm_vv_ZVdRjvJUYIy957t/view",
-			"codeLink": "https://github.com/Ethanlloyd21/Username-Password-Authentication-React",
-			"description": "This is a simple application of a username and password authentication using a third party application called OKTA.",
-			"technology": ["HTML/CSS", "Javascript", "jQuery", "React", "Okta"]
+			"title": "Sneaker Inventory",
+			"imageUrl": "images/portfolio/dashboard.png",
+			"link": "https://agile-headland-04774.herokuapp.com/",
+			"codeLink": "https://github.com/Ethanlloyd21/project-2",
+			"description": "The JLR Shoes CRM is used by the JLR Shoe company to track inventory, supplier info, and vendor info. It gives JLR Shoe company an advantage over the competition by having the most important company information accurately displayed in one place. This CRM was created using React, Sequelize, and MySQL.",
+			"technology": ["HTML/CSS", "Javascript", "React", "Sequalize", "Express", "Chart.js", "MySQL"],
+			"deploy": ["git", "GitHub", "JawsDB", "Heroku"]
 		},
 		{
 			"id": 4,
@@ -49,7 +53,8 @@ const portfolioData = {
 			"link": "https://lloydmarcelino.com",
 			"codeLink": "https://github.com/Ethanlloyd21/Portfolio-React",
 			"description": "My Professional Portfolio",
-			"technology": ["HTML/CSS", "SASS", "JavaScript", "Bootstrap", "React"]
+			"technology": ["HTML/CSS", "SASS", "JavaScript", "Bootstrap", "React"],
+			"deploy": ["git", "GitHub", "AWS S3", "AWS Route 53", "GoDaddy (domain)"]
 		},
 		{
 			"id": 5,
@@ -58,7 +63,8 @@ const portfolioData = {
 			"link": "https://workout-tracker-mongodb.herokuapp.com/",
 			"codeLink": "https://github.com/Ethanlloyd21/Workout-Tracker",
 			"description": "Workout-Tracker application tracks the user's exercise routine and outputs the result using charts (graphs). This application is build with Mongo database, a Mongoose schema and handle routes with Express using HTML, CSS, JavaScript and jQuery.",
-			"technology": ["HTML/CSS", "Bootstrap", "Javascript/jQuery", "Chart.js", "Express", "Node.js", "MongoDB", "Mongoose", "Webpack"]
+			"technology": ["HTML/CSS", "Bootstrap", "Javascript/jQuery", "Chart.js", "Express", "Node.js", "MongoDB", "Mongoose", "Webpack"],
+			"deploy": ["git", "GitHub", "mLab", "Heroku"]
 		},
 		{
 			"id": 6,
@@ -67,7 +73,8 @@ const portfolioData = {
 			"link": "https://ethanlloyd21.github.io/Weather-Dashboard/",
 			"codeLink": "https://github.com/Ethanlloyd21/Weather-Dashboard",
 			"description": "This app uses OpenWeather API to retrieve weather data for cities. An AJAX is used to hook into the API and retrieve data in JSON format. The app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
-			"technology": ["HTML/CSS", "Bootstrap", "Javascript/Jquery", "API"]
+			"technology": ["HTML/CSS", "Bootstrap", "Javascript/Jquery", "API"],
+			"deploy": ["git", "GitHub"]
 		},
 		{
 			"id": 7,
@@ -76,16 +83,18 @@ const portfolioData = {
 			"link": "https://ethanlloyd21.github.io/Code-Quiz/",
 			"codeLink": "https://github.com/Ethanlloyd21/Code-Quiz",
 			"description": "In this project, the challenge is to build a trivia quiz with multiple-choice questions.",
-			"technology": ["HTML/CSS", "Javascript", "jQuery"]
+			"technology": ["HTML/CSS", "Javascript", "jQuery"],
+			"deploy": ["git", "GitHub"]
 		},
 		{
 			"id": 8,
 			"title": "ROXANNE (AMAZON)",
 			"imageUrl": "images/portfolio/roxanne.jpg",
-			"link": "",
+			"link": "https://w.amazon.com/bin/view/ROXANNE",
 			"codeLink": "https://github.com/Ethanlloyd21/ROXANNE",
 			"description": "Roxanne is JAVA application created for Amazon GSOC team. Users access the app to get information (contacts, emails, etc.), ping panels, manage and create trouble tickets, view Amazon ORBIT, get scripts/ tamper monkey, view SOP and schedules. ROXANNE helps the team productivity.",
-			"technology": ["Java", "Java GUI", "Java Window Builder"]
+			"technology": ["Java", "Java GUI", "Java Window Builder"],
+			"deploy": ["Java GUI"]
 		},
 	],
 	"skills": [
@@ -98,19 +107,19 @@ const portfolioData = {
 			"percentage": 90
 		},
 		{
-			"name": "Bootstrap",
-			"percentage": 90
+			"name": "React",
+			"percentage": 85
 		},
 		{
-			"name": "MERN",
-			"percentage": 80
+			"name": "Node.js / Express",
+			"percentage": 85
+		},
+		{
+			"name": "MongoDB",
+			"percentage": 85
 		},
 		{
 			"name": "Java",
-			"percentage": 75
-		},
-		{
-			"name": "MySQL",
 			"percentage": 70
 		},
 	],

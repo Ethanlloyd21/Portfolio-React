@@ -1,26 +1,44 @@
 import React from 'react';
+import '../Modal/Modal.css'
 
-const ProjectInfo = ({ imageUrl, title, link, description, technology, codeLink }) => {
+const ProjectInfo = ({ imageUrl, title, link, description, technology, codeLink, deploy }) => {
   return (
     <div className="project-info">
       <div className="project-info__info">
         <div className="project-info__title"> {title} </div>
         <div className="project-info__desc"> {description} </div>
-        {
-          technology.length > 0 &&
-          <div>
-            <h2 className="project-info__heading"> Technology used </h2>
-            <ul className="project-info__tech">
-              {
-                technology.map((t, i) => {
-                  return (
-                    <li> {t} </li>
-                  )
-                })
-              }
-            </ul>
-          </div>
-        }
+        <div className="cols">
+          {
+            technology.length > 0 &&
+            <div>
+              <h2 className="project-info__heading"> Technology used </h2>
+              <ul className="project-info__tech">
+                {
+                  technology.map((t, i) => {
+                    return (
+                      <li> {t} </li>
+                    )
+                  })
+                }
+              </ul>
+            </div>
+          }
+          {
+            deploy.length > 0 &&
+            <div>
+              <h2 className="project-info__heading"> Deployment </h2>
+              <ul className="project-info__tech">
+                {
+                  deploy.map((t, i) => {
+                    return (
+                      <li> {t} </li>
+                    )
+                  })
+                }
+              </ul>
+            </div>
+          }
+        </div>
         <div className="project-info__action">
           {
             link !== "" && <a className="btn btn-primary  bt-lg" target="_blank" rel="noopener noreferrer" href={link}> Visit Website </a>

@@ -15,6 +15,8 @@ const Skills = (props) => {
           <VisibilitySensor>
             {({ isVisible }) => {
               const percentage = isVisible ? s.percentage : 0;
+              const name = isVisible ? s.name : 0;
+
               return (
                 <CircularProgressbar
                   value={percentage}
