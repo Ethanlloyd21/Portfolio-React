@@ -19,11 +19,11 @@ const portfolioData = {
 		{
 			"id": 1,
 			"title": "Donationally",
-			"imageUrl": "images/portfolio/donationally.PNG",
+			"imageUrl": "images/portfolio/Original.png",
 			"link": "https://donationally.herokuapp.com/",
 			"codeLink": "https://github.com/ohhhhhwhen/Donationally",
 			"description": "Donationally is a charity search navigator, helping users in multiple ways to stay informed about world events and opportunities to give back to those in need. Our mission is to create lasting change one donation at a time. We envision a world everyone has the opportunity to live a better life",
-			"technology": ["HTML/CSS", "Javascript", "React", "React-Bootstrap", "Express", "MongoDB", "Ant Design", "Node.js", "Formik", "Yup"],
+			"technology": ["HTML/CSS", "Javascript", "React", "React Hooks", "React-Bootstrap", "Ant Design", "Formik", "Yup", "axios", "Google API", "Express", "MongoDB", "Mongoose", "Node.js"],
 			"deploy": ["git", "GitHub", "mLab", "Heroku"]
 		},
 		{
