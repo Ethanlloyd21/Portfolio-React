@@ -21,6 +21,7 @@ const About = (props) => {
 
 
                 </div>
+
             </div>
         </section>
     );
