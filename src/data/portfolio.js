@@ -18,9 +18,9 @@ const portfolioData = {
 		},
 		{
 			"id": 1,
-			"title": "Donationally",
+			"title": "Donationally using React",
 			"imageUrl": "images/portfolio/Original.png",
-			"link": "https://donationally.herokuapp.com/",
+			"link": "http://donationally.com",
 			"codeLink": "https://github.com/ohhhhhwhen/Donationally",
 			"description": "Donationally is a charity search navigator, helping users in multiple ways to stay informed about world events and opportunities to give back to those in need. Our mission is to create lasting change one donation at a time. We envision a world everyone has the opportunity to live a better life",
 			"technology": ["HTML/CSS", "Javascript", "React", "React Hooks", "React-Bootstrap", "Ant Design", "Formik", "Yup", "axios", "Google API", "Express", "MongoDB", "Mongoose", "Node.js"],
@@ -38,7 +38,7 @@ const portfolioData = {
 		},
 		{
 			"id": 3,
-			"title": "Sneaker Inventory",
+			"title": "React Sneaker Inventory",
 			"imageUrl": "images/portfolio/dashboard.png",
 			"link": "https://agile-headland-04774.herokuapp.com/",
 			"codeLink": "https://github.com/Ethanlloyd21/project-2",
@@ -58,7 +58,7 @@ const portfolioData = {
 		},
 		{
 			"id": 5,
-			"title": "Fitness Tracker",
+			"title": "React Fitness Tracker",
 			"imageUrl": "images/portfolio/resistance.png",
 			"link": "https://workout-tracker-mongodb.herokuapp.com/",
 			"codeLink": "https://github.com/Ethanlloyd21/Workout-Tracker",
@@ -68,13 +68,13 @@ const portfolioData = {
 		},
 		{
 			"id": 6,
-			"title": "Weather Dashboard",
-			"imageUrl": "images/portfolio/weather2.png",
-			"link": "https://ethanlloyd21.github.io/Weather-Dashboard/",
-			"codeLink": "https://github.com/Ethanlloyd21/Weather-Dashboard",
-			"description": "This app uses OpenWeather API to retrieve weather data for cities. An AJAX is used to hook into the API and retrieve data in JSON format. The app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
-			"technology": ["HTML/CSS", "Bootstrap", "Javascript/Jquery", "API"],
-			"deploy": ["git", "GitHub"]
+			"title": "React Google Book Search",
+			"imageUrl": "images/portfolio/google.PNG",
+			"link": "https://google-books-search-lloyd.herokuapp.com/",
+			"codeLink": "https://github.com/Ethanlloyd21/Google-Book-Search",
+			"description": "React-based Google Books Search application requires a creation of a React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. This can be achieve using Node, Express and MongoDB so that users can save books to review or purchase later.",
+			"technology": ["React", "Node.js", "Express", "MongoDB", "Google API"],
+			"deploy": ["Github", "Heroku"]
 		},
 		{
 			"id": 7,
@@ -88,13 +88,43 @@ const portfolioData = {
 		},
 		{
 			"id": 8,
-			"title": "ROXANNE (AMAZON)",
-			"imageUrl": "images/portfolio/roxanne.jpg",
+			"title": "ROXANNE",
+			"imageUrl": "images/portfolio/roxanne.png",
 			"link": "https://w.amazon.com/bin/view/ROXANNE",
 			"codeLink": "https://github.com/Ethanlloyd21/ROXANNE",
-			"description": "Roxanne is JAVA application created for Amazon GSOC team. Users access the app to get information (contacts, emails, etc.), ping panels, manage and create trouble tickets, view Amazon ORBIT, get scripts/ tamper monkey, view SOP and schedules. ROXANNE helps the team productivity.",
+			"description": "Roxanne is JAVA application created for a GSOC team. Users access the app to get information (contacts, emails, etc.), ping panels, create / edit trouble tickets, view procedures, etc. ROXANNE helps the productivity of a team by creating a simple way to manage data. Roxanne is under a non-disclosure agreement because it contains confidential material and proprietary information. Due to security issue, ROXANNE's code is not available to public view.",
 			"technology": ["Java", "Java GUI", "Java Window Builder"],
 			"deploy": ["Java GUI"]
+		},
+		{
+			"id": 9,
+			"title": "Weather Dashboard",
+			"imageUrl": "images/portfolio/weather2.png",
+			"link": "https://ethanlloyd21.github.io/Weather-Dashboard/",
+			"codeLink": "https://github.com/Ethanlloyd21/Weather-Dashboard",
+			"description": "This app uses OpenWeather API to retrieve weather data for cities. An AJAX is used to hook into the API and retrieve data in JSON format. The app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+			"technology": ["HTML/CSS", "Bootstrap", "Javascript/Jquery", "API"],
+			"deploy": ["git", "GitHub"]
+		},
+		{
+			"id": 10,
+			"title": "Password Generator",
+			"imageUrl": "images/portfolio/gen.PNG",
+			"link": "https://ethanlloyd21.github.io/Password-Generator/",
+			"codeLink": "https://github.com/Ethanlloyd21/Password-Generator",
+			"description": "This application generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by a JavaScript code.",
+			"technology": ["JavaScrip", "HTML", "CSS"],
+			"deploy": ["Github", "git"]
+		},
+		{
+			"id": 11,
+			"title": "Restaurant Reservation",
+			"imageUrl": "images/portfolio/restaurant.png",
+			"link": "https://reserve-restaurant.herokuapp.com/",
+			"codeLink": "https://github.com/Ethanlloyd21/Restaurant-Reservation",
+			"description": "Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.",
+			"technology": ["JavaScript", "jQuery", "Node.js", "Express"],
+			"deploy": ["Github", "git"]
 		},
 	],
 	"skills": [
@@ -126,16 +156,28 @@ const portfolioData = {
 
 	"workExp": [
 		{
-			"title": "GSOC Analyst",
-			"date": 'October 2016- Present',
-			"description": "Designed and implemented basic web application. Performed data management, administrative process, crisis management, escalation and investigation.",
-			"company": 'Amazon via AUS'
+			"title": "Senior Software Engineer at Tableau",
+			"date": 'May 2020',
+			"description": "Lloyd’s devotion to perfection is astounding. He is dedicated to making the highest quality product because he so deeply cares about everything he works on.",
+			"company": 'Spencer Shadley'
 		},
 		{
-			"title": "Security Specialist",
-			"date": 'March 2015 - October 2016',
-			"company": 'Amazon via SIS',
-			"description": " Delivered outstanding customer service by managing customer's conflicts and challenging situations. Enforced client policy and regulations, and investigated all facility related incidents."
+			"title": "Software Developer",
+			"date": 'May 2020',
+			"description": "When I think of Lloyd Marcelino, the one word that comes to mind is diligence. His desire to learn and improve his skills set him apart. These traits will undoubtedly make him a valuable asset for any programming position and this comes with my genuine recommendation.",
+			"company": 'Dane Shresbury'
+		},
+		{
+			"title": "Data Analyst",
+			"date": 'June 2020',
+			"company": 'Ari Horowitz',
+			"description": "Lloyd's passion, drive, and commitment to improve are qualities that will translate directly to your team. As a team member and leader, Lloyd earns my highest recommendation."
+		},
+		{
+			"title": "Software Developer at Den",
+			"date": 'May 2020',
+			"company": 'Owen Chantala',
+			"description": "Had the pleasure of working with Lloyd. Lloyd was not only able to provide many responsive design components but created logos and various information for our group application. His hard work paid off during the day of our presentation."
 		},
 	]
 
