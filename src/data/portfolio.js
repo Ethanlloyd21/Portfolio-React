@@ -12,7 +12,7 @@ const portfolioData = {
 			"imageUrl": "images/portfolio/sample.png",
 			"link": "https://ethanlloyd21.github.io/React-Employee-Directory/",
 			"codeLink": "https://github.com/Ethanlloyd21/React-Employee-Directory",
-			"description": "This application uses React to break up the UI into components, manage component state and respond to user events.",
+			"description": "This application uses React that enables the user to quickly see and organize a list of employees by birthday, or search for a specific employee by name.",
 			"technology": ["HTML/CSS", "Bootstrap", "Node.js", "React", "API", "Webpack"],
 			"deploy": ["git", "GitHub", "mLab", "Heroku"]
 		},
