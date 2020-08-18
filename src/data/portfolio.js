@@ -126,19 +126,49 @@ const portfolioData = {
 			"technology": ["JavaScript", "jQuery", "Node.js", "Express"],
 			"deploy": ["Github", "git"]
 		},
+		{
+			"id": 12,
+			"title": "MySQL Employee Tracker",
+			"imageUrl": "images/portfolio/screen.PNG",
+			"link": "https://drive.google.com/file/d/1YR7YOwPlGoaFdIdoFeKc9-ysnnY5sM2P/view",
+			"codeLink": "https://github.com/Ethanlloyd21/MySQL-Employee-Tracker",
+			"description": "MySQL-Employee-Tracker is an interface command program that make it easy for non-developers to view and interact with information stored in databases. This interface is a good example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL. ",
+			"technology": ["JavaScript", "jQuery", "Node.js", "ES6+", "MySQL"],
+			"deploy": ["Github", "git", "command-line"]
+		},
+		{
+			"id": 13,
+			"title": "Employee Template Engine",
+			"imageUrl": "images/portfolio/employee.png",
+			"link": "https://drive.google.com/file/d/1yO4M8pAAFzpijVdGRg2FCFMybQKnfhEi/view",
+			"codeLink": "https://github.com/Ethanlloyd21/Template-Engine-Employee-Summary",
+			"description": "This project is a Software Engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. A test using 'jest' is used to ensure that all unit tests pass.",
+			"technology": ["JavaScript", "HTML", "CSS", "jest"],
+			"deploy": ["Github", "git"]
+		},
+		{
+			"id": 14,
+			"title": "Profile Generator using GitHub",
+			"imageUrl": "images/portfolio/generator.PNG",
+			"link": "https://drive.google.com/file/d/1S2UGT1OmhEsEEWPQHaLFJIaxe4lV0tjT/view",
+			"codeLink": "https://github.com/Ethanlloyd21/Developer-Profile-Generator",
+			"description": "A command-line application that dynamically generates a PDF profile from a GitHub username.",
+			"technology": ["JavaScript", "HTML", "CSS", "Node.js", "GitHub API"],
+			"deploy": ["Github", "git", "command-line"]
+		},
 	],
 	"skills": [
 		{
 			"name": "HTML/CSS",
-			"percentage": 90
+			"percentage": 95
 		},
 		{
 			"name": "JavaScript",
-			"percentage": 90
+			"percentage": 95
 		},
 		{
 			"name": "React",
-			"percentage": 85
+			"percentage": 95
 		},
 		{
 			"name": "Node.js / Express",
@@ -149,8 +179,8 @@ const portfolioData = {
 			"percentage": 85
 		},
 		{
-			"name": "Java",
-			"percentage": 70
+			"name": "AWS",
+			"percentage": 80
 		},
 	],
 
