@@ -74,7 +74,7 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/Google-Book-Search",
 			"description": "React-based Google Books Search application requires a creation of a React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. This can be achieve using Node, Express and MongoDB so that users can save books to review or purchase later.",
 			"technology": ["React", "Node.js", "Express", "MongoDB", "Google API"],
-			"deploy": ["Github", "Heroku"]
+			"deploy": ["GitHub", "Heroku"]
 		},
 		{
 			"id": 7,
@@ -114,7 +114,7 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/Password-Generator",
 			"description": "This application generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by a JavaScript code.",
 			"technology": ["JavaScrip", "HTML", "CSS"],
-			"deploy": ["Github", "git"]
+			"deploy": ["GitHub", "git"]
 		},
 		{
 			"id": 11,
@@ -124,7 +124,7 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/Restaurant-Reservation",
 			"description": "Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.",
 			"technology": ["JavaScript", "jQuery", "Node.js", "Express"],
-			"deploy": ["Github", "git"]
+			"deploy": ["GitHub", "git"]
 		},
 		{
 			"id": 12,
@@ -134,7 +134,7 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/MySQL-Employee-Tracker",
 			"description": "MySQL-Employee-Tracker is an interface command program that make it easy for non-developers to view and interact with information stored in databases. This interface is a good example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL. ",
 			"technology": ["JavaScript", "jQuery", "Node.js", "ES6+", "MySQL"],
-			"deploy": ["Github", "git", "command-line"]
+			"deploy": ["GitHub", "git", "command-line"]
 		},
 		{
 			"id": 13,
@@ -144,7 +144,7 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/Template-Engine-Employee-Summary",
 			"description": "This project is a Software Engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. A test using 'jest' is used to ensure that all unit tests pass.",
 			"technology": ["JavaScript", "HTML", "CSS", "jest"],
-			"deploy": ["Github", "git"]
+			"deploy": ["GitHub", "git"]
 		},
 		{
 			"id": 14,
@@ -154,7 +154,37 @@ const portfolioData = {
 			"codeLink": "https://github.com/Ethanlloyd21/Developer-Profile-Generator",
 			"description": "A command-line application that dynamically generates a PDF profile from a GitHub username.",
 			"technology": ["JavaScript", "HTML", "CSS", "Node.js", "GitHub API"],
-			"deploy": ["Github", "git", "command-line"]
+			"deploy": ["GitHub", "git", "command-line"]
+		},
+		{
+			"id": 15,
+			"title": "Profile Generator using GitHub",
+			"imageUrl": "images/portfolio/generator.PNG",
+			"link": "https://drive.google.com/file/d/1S2UGT1OmhEsEEWPQHaLFJIaxe4lV0tjT/view",
+			"codeLink": "https://github.com/Ethanlloyd21/Developer-Profile-Generator",
+			"description": "A command-line application that dynamically generates a PDF profile from a GitHub username.",
+			"technology": ["JavaScript", "HTML", "CSS", "Node.js", "GitHub API"],
+			"deploy": ["GitHub", "git", "command-line"]
+		},
+		{
+			"id": 16,
+			"title": "Login System using Node.js",
+			"imageUrl": "images/portfolio/roxanne.png",
+			"link": "https://drive.google.com/file/d/1yJHvVf1gL9gX1j8Ito8YC36e7MRB58zN/view",
+			"codeLink": "https://github.com/Ethanlloyd21/Login-Register-Validation",
+			"description": "A simple application that creates and validates user name and password. The application also restores the session so the user won't log in again if the browser is accidentally closed. The password are encrypted on the database for security purposes..",
+			"technology": ["JavaScript", "Pug", "Node.js", "Express", "bcrypt", "MySQL"],
+			"deploy": ["GitHub", "git"]
+		},
+		{
+			"id": 17,
+			"title": "Login Authentication using React",
+			"imageUrl": "images/portfolio/login.PNG",
+			"link": "https://drive.google.com/file/d/16a7xBDngn1zJm_vv_ZVdRjvJUYIy957t/view",
+			"codeLink": "https://github.com/Ethanlloyd21/Username-Password-Authentication-React",
+			"description": " This is a simple application of a username and password authentication using React with OKLA integration. A sign-in experience is one of the most important user experiences any app developer needs to consider. To provide a seamless and attractive, yet secure authentication experience is not a trivial task. Typically, the sign-in logic accompanies other features such as password reset and registration. More importantly, enhanced security in the form of strong and adaptive authentication during the sign-in process is often critical to many implementations.",
+			"technology": ["React", "CSS", "OKTA"],
+			"deploy": ["GitHub", "git"]
 		},
 	],
 	"skills": [
