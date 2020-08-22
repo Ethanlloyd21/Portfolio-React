@@ -17,7 +17,7 @@ const About = (props) => {
                     <p>I am a Software Developer from Seattle, WA who loves to learn and creatively solve problems. I specialize in creating beautiful website interfaces that gives the site both a stylish and clean design. I design and develop experiences that makes people's lives simple.</p>
                     <br></br><br></br>
                     <p><b>My Personality.. </b></p>
-                    <p>I am an easygoing and mild mannered guy who enjoys many hobbies. Of these hobbies, I enjoy traveling around the world, experiencing different cultures, visiting the beach, composing music and art, and playing video games the most. I am also a big fan of the San Diego Chargers (now Los Angeles).</p>
+                    <p>I am an easygoing and mild mannered guy who enjoys many hobbies. Of these hobbies, I enjoy traveling around the world, experiencing different cultures, visiting the beach, composing music and art. I am also a big fan of the San Diego Chargers (now Los Angeles).</p>
 
 
                 </div>
