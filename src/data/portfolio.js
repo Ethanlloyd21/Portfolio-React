@@ -148,7 +148,7 @@ const portfolioData = {
 		},
 		{
 			"id": 14,
-			"title": "Profile Generator using GitHub",
+			"title": "Profile Generator using GitHub API",
 			"imageUrl": "images/portfolio/generator.PNG",
 			"link": "https://drive.google.com/file/d/1S2UGT1OmhEsEEWPQHaLFJIaxe4lV0tjT/view",
 			"codeLink": "https://github.com/Ethanlloyd21/Developer-Profile-Generator",
@@ -158,18 +158,8 @@ const portfolioData = {
 		},
 		{
 			"id": 15,
-			"title": "Profile Generator using GitHub",
-			"imageUrl": "images/portfolio/generator.PNG",
-			"link": "https://drive.google.com/file/d/1S2UGT1OmhEsEEWPQHaLFJIaxe4lV0tjT/view",
-			"codeLink": "https://github.com/Ethanlloyd21/Developer-Profile-Generator",
-			"description": "A command-line application that dynamically generates a PDF profile from a GitHub username.",
-			"technology": ["JavaScript", "HTML", "CSS", "Node.js", "GitHub API"],
-			"deploy": ["GitHub", "git", "command-line"]
-		},
-		{
-			"id": 16,
 			"title": "Login System using Node.js",
-			"imageUrl": "images/portfolio/roxanne.png",
+			"imageUrl": "images/portfolio/login.PNG",
 			"link": "https://drive.google.com/file/d/1yJHvVf1gL9gX1j8Ito8YC36e7MRB58zN/view",
 			"codeLink": "https://github.com/Ethanlloyd21/Login-Register-Validation",
 			"description": "A simple application that creates and validates user name and password. The application also restores the session so the user won't log in again if the browser is accidentally closed. The password are encrypted on the database for security purposes..",
@@ -177,13 +167,23 @@ const portfolioData = {
 			"deploy": ["GitHub", "git"]
 		},
 		{
-			"id": 17,
+			"id": 16,
 			"title": "Login Authentication using React",
-			"imageUrl": "images/portfolio/login.PNG",
+			"imageUrl": "images/portfolio/auth.png",
 			"link": "https://drive.google.com/file/d/16a7xBDngn1zJm_vv_ZVdRjvJUYIy957t/view",
 			"codeLink": "https://github.com/Ethanlloyd21/Username-Password-Authentication-React",
 			"description": " This is a simple application of a username and password authentication using React with OKLA integration. A sign-in experience is one of the most important user experiences any app developer needs to consider. To provide a seamless and attractive, yet secure authentication experience is not a trivial task. Typically, the sign-in logic accompanies other features such as password reset and registration. More importantly, enhanced security in the form of strong and adaptive authentication during the sign-in process is often critical to many implementations.",
 			"technology": ["React", "CSS", "OKTA"],
+			"deploy": ["GitHub", "git"]
+		},
+		{
+			"id": 17,
+			"title": "PayPal Payment System using React",
+			"imageUrl": "images/portfolio/paypal.png",
+			"link": "https://drive.google.com/file/d/14DH2sfI3dN5WSFRwp2ay2ri36tlbbPch/view",
+			"codeLink": "https://github.com/Ethanlloyd21/React_PayPal_payment",
+			"description": "The intent of this application is to build a service which require the user to get payment from the customers. This application is best to use in an e-commerce site. For this purpose a dependable payment gateway is the goal. Using React with an integration of PayPal Checkout system is best solution.",
+			"technology": ["JavaScrip", "React", "PayPal API"],
 			"deploy": ["GitHub", "git"]
 		},
 	],
