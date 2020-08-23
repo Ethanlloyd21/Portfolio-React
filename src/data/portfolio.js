@@ -180,7 +180,7 @@ const portfolioData = {
 			"id": 17,
 			"title": "PayPal Payment System using React",
 			"imageUrl": "images/portfolio/paypal.png",
-			"link": "https://paypal-payment.s3-us-west-1.amazonaws.com/eb0ff7bf-6a06-4fdf-a096-3cc6df7e3d14.webm",
+			"link": "https://paypal-payment.s3-us-west-1.amazonaws.com/paypal.webm",
 			"codeLink": "https://github.com/Ethanlloyd21/React_PayPal_payment",
 			"description": "The intent of this application is to build a service which require the user to get payment from the customers. This application is best to use in an e-commerce site. For this purpose a dependable payment gateway is the goal. Using React with an integration of PayPal Checkout system is best solution.",
 			"technology": ["JavaScrip", "React", "PayPal API"],
