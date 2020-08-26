@@ -132,7 +132,7 @@ const portfolioData = {
 			"imageUrl": "images/portfolio/screen.PNG",
 			"link": "https://drive.google.com/file/d/1YR7YOwPlGoaFdIdoFeKc9-ysnnY5sM2P/view",
 			"codeLink": "https://github.com/Ethanlloyd21/MySQL-Employee-Tracker",
-			"description": "MySQL-Employee-Tracker is an interface command program that make it easy for non-developers to view and interact with information stored in databases. This interface is a good example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL. This application is also a good example of data manipulation using tables and columns on MySQL. ",
+			"description": "MySQL- Employee-Tracker is an interface command program that make it easy for non-developers to view and interact with information stored in databases. This interface is a good example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL. This application is also a good example of data manipulation using tables and columns on MySQL. ",
 			"technology": ["JavaScript", "jQuery", "Node.js", "ES6+", "MySQL", "MySQL Workbench"],
 			"deploy": ["GitHub", "git", "command-line"]
 		},
